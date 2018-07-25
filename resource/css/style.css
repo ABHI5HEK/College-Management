@@ -1,0 +1,202 @@
+
+.box {
+    width: 350px;
+    height: 200px;
+    background: #C4C4C4;
+    margin: 100px 0 20px 120px;
+    float: left;
+}
+
+
+/*==================================================
+ * Effect 5
+ * ===============================================*/
+.effect-style {
+  position: relative;
+}
+.effect-style:before, .effect-style:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.effect-style:after {
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+/*** INSIDE THE BOX  ***/
+.box h2 {
+	text-align: center;
+  color: white;
+}
+
+.middle-signup {
+  padding-right: 150px;
+  padding-left: 190px;
+} 
+
+/***************************************
+    HOVERABLE SIDENAV BUTTONS
+*****************************************/
+
+.MySidenav a {
+ position: fixed;
+  left: -100px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 150px;
+  margin-top: 150px;
+  text-decoration: hide;
+  font-size: 20px;
+  color: transparent;
+  border-radius: 0 6px 6px 0;
+}
+
+
+/** Admission SideNav **/
+.MySidenav a:hover {
+  left: 0;
+  margin-bottom: 20px;
+}
+
+
+#cources {
+    top: 50px;
+    height: 70px;
+    background-color: #F88254;
+}
+
+#adProcess {
+    top: 130px;
+    height: 70px;
+    background-color: #42FCFF;
+}
+
+#docReq {
+    top: 210px;
+    height: 70px;
+    background-color: #F7695F;
+}
+
+#bulleetin {
+    top: 290px;
+    height: 70px;
+    padding-top: 18px;
+    background-color: #524DFF;
+}
+
+#cources:hover {background-color: #F65B1E;}
+#adProcess:hover {background-color: #00BFC2;}
+#docReq:hover {background-color: f44336;}
+#bulleetin:hover {background-color: #120AFF;}
+
+/* Manage User */
+#admin-user {
+    top: 50px;
+    height: 70px;
+    padding-top: 18px;
+    background-color: #F88254;
+}
+
+#fac-user {
+    top: 130px;
+    height: 70px;
+    padding-top: 18px;
+    background-color: #42FCFF;
+}
+
+#stud-user {
+    top: 210px;
+    height: 70px;
+    padding-top: 18px;
+    background-color: #F7695F;
+}
+
+#parent-user {
+    top: 290px;
+    height: 70px;
+    padding-top: 18px;
+    background-color: #524DFF;
+}
+
+#admin-user:hover {background-color: #F65B1E;}
+#fac-user:hover {background-color: #00BFC2;}
+#stud-user:hover {background-color: #f44336;}
+#parent-user:hover {background-color: #120AFF;}
+
+
+/**********************************************
+                ACCORDIAN
+***********************************************/
+.muser-accordion {
+  margin: 150px 100px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    margin: 5px auto;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.2s ease-out;
+}
+
+#m-accordion h2 {
+  color: #564EF4;
+}
+
+#m-accordion p {
+  color: #000000;
+}
+
+/**********************************************
+                ABOUTUS
+***********************************************/

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>home</title>
+	<meta name="description" content="Blueprint: A basic template for a page stack navigation effect" />
+	<meta name="keywords" content="blueprint, template, html, css, page stack, 3d, perspective, navigation, menu" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="resource/css/style.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="vendors/css/component.css" />
+	<script src="vendors/js/modernizr-custom.js"></script>
+</head>
+
+<body>
+	<!-- navigation -->
+	<nav class="pages-nav">
+		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-admi">Admission</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-Sdetails">Student Detail</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-Musers">Manage Users</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-Exami">Examination</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-Extra">Extra</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-Feature">Features</a></div>
+		<a class="middle-signup" href="signup.html">Singn In &amp; Log In</a>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact">About Us</a></div>
+		<div class="pages-nav__item pages-nav__item--social">
+			<a class="link link--social link--faded" href="#"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
+			<a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
+			<a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+			<a class="link link--social link--faded" href="#"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
+		</div>
+	</nav>
+	<!-- /navigation-->
+	<!-- pages stack -->
+	<div class="pages-stack">
+		<!-- page -->
+		<div class="page" id="page-home">
+			<div class="box effect-style">
+				<h2>ADMISSION</h2>
+				<p></p>
+			</div>
+			<div class="box effect-style">
+				<h2>STUDENT DETAILS</h2>
+			</div>
+			<div class="box effect-style">
+				<h2>MANAGE USERS</h2>
+			</div>
+			<div class="box effect-style">
+				<h2>EXAMINATION</h2>
+			</div>
+			<div class="box effect-style">
+				<h2>TIME TABLE</h2>
+			</div>
+			<div class="box effect-style">
+				<h2>ATTENDANCE</h2>
+			</div>
+
+		</div>
+
+		<!-- /page -->
+		<div class="page" id="page-admi">
+			<div class="MySidenav admin-sidenav">
+				<a href="#" id="cources">Approved Courses</a>		
+				<a href="#" id="adProcess">Admission Process</a>		
+				<a href="#" id="docReq">Document Required</a>			
+				<a href="#" id="bulleetin">Career Bulletin</a>
+			</div>			
+		</div>
+
+		<div class="page" id="page-Sdetails">
+			
+		</div>
+
+		<div class="page" id="page-Musers">
+			<div class="MySidenav">
+				<a href="#" id="admin-user">Administrator</a>		
+				<a href="#" id="fac-user">Fculity</a>		
+				<a href="#" id="stud-user">Student</a>		
+				<a href="#" id="parent-user">Parent</a>
+
+				<div id="m-accordion" class="muser-accordion">
+					<h2>Who can access this portal:</h2>
+					<p>Detail features and their limitation are give below:</p>
+
+					<button class="accordion">Administrator:</button>
+					<div class="panel">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+
+					<button class="accordion">Fculity:</button>
+					<div class="panel">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+
+					<button class="accordion">Student:</button>
+					<div class="panel">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+
+					<button class="accordion">Parent:</button>
+					<div class="panel">
+					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+
+				</div>
+			</div>	
+		</div>
+
+		<div class="page" id="page-Exami">
+			
+		</div>
+
+		<div class="page" id="page-Extra">
+			
+		</div>
+
+		<div class="page" id="page-Feature">
+			
+		</div>
+
+		<div class="page" id="page-contact">
+			<img class="poster" src="resource/images/logo_ico.png">
+		</div>
+
+	</div>
+
+	<!-- /pages-stack -->
+	<button class="menu-button"><span>Menu</span></button>
+
+	<script type="text/javascript" src="resource/js/style.js"></script>
+	<script src="vendors/js/classie.js"></script>
+	<script src="vendors/js/main.js"></script>
+</body>
+
+</html>
