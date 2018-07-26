@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>home</title>
+	<title>Home</title>
 	<meta name="description" content="Blueprint: A basic template for a page stack navigation effect" />
 	<meta name="keywords" content="blueprint, template, html, css, page stack, 3d, perspective, navigation, menu" />
 	<meta name="author" content="Codrops" />
@@ -14,20 +14,29 @@
 	<link rel="stylesheet" type="text/css" href="resource/css/style.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="vendors/css/component.css" />
+	<link rel="stylesheet" type="text/css" href="./vendors/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/.bootstrap-grid.css">
 	<script src="vendors/js/modernizr-custom.js"></script>
+	<style >
+	.row{
+		margin-top: 7px;
+
+	}
+	</style>
+	<script src="vendors/js/bootstrap.js"></script>
 </head>
 
 <body>
 	<!-- navigation -->
 	<nav class="pages-nav">
 		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-admi">Admission</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-Sdetails">Student Detail</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-admi">Story board</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-Sdetails">Profile</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-Musers">Manage Users</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-Exami">Examination</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-Exami">Alumni</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-Extra">Extra</a></div>
 		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-Feature">Features</a></div>
-		<a class="middle-signup" href="signup.html">Singn In &amp; Log In</a>
+		<a class="middle-signup" href="signup.html">Sign In &amp; Log In</a>
 		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact">About Us</a></div>
 		<div class="pages-nav__item pages-nav__item--social">
 			<a class="link link--social link--faded" href="#"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
@@ -41,46 +50,81 @@
 	<div class="pages-stack">
 		<!-- page -->
 		<div class="page" id="page-home">
-			<div class="box effect-style">
-				<h2>ADMISSION</h2>
-				<p></p>
+			<div class="box effect-style" >
+				<a class="link link--page" href="#page-Sdetails">
+				<h2 >STORY BOARD</h2>
+				<p></p></a>
 			</div>
 			<div class="box effect-style">
-				<h2>STUDENT DETAILS</h2>
+				<h2>PROFILE</h2>
 			</div>
 			<div class="box effect-style">
 				<h2>MANAGE USERS</h2>
 			</div>
 			<div class="box effect-style">
-				<h2>EXAMINATION</h2>
+				<h2>EVENTS</h2>
 			</div>
 			<div class="box effect-style">
 				<h2>TIME TABLE</h2>
-			</div>
+	
+		<div class="page" id="page-admi">
+			<div class="MySidenav admin-sidenav">
+				<a href="#" id="cources">Approved Courses</a>		
+				<a href="#" id="		</div>
 			<div class="box effect-style">
-				<h2>ATTENDANCE</h2>
+				<h2>ALUMNI</h2>
 			</div>
 
 		</div>
 
-		<!-- /page -->
-		<div class="page" id="page-admi">
-			<div class="MySidenav admin-sidenav">
-				<a href="#" id="cources">Approved Courses</a>		
-				<a href="#" id="adProcess">Admission Process</a>		
+		<!-- /page -->adProcess">Admission Process</a>		
 				<a href="#" id="docReq">Document Required</a>			
 				<a href="#" id="bulleetin">Career Bulletin</a>
 			</div>			
 		</div>
-
-		<div class="page" id="page-Sdetails">
+			<!------------------------------------------page profile-------------------------------------->
+		<div class="page" class="container" id="page-Sdetails">
+			<h1 class="center-align">Profile</h1>
 			
+			<div class="row" >
+				<div class="col-md-4">
+					<div class="out">
+						<img width="400px" height="460px" src="./images/abhi.jpg">
+					</div>
+				</div>
+
+					<div class="col-md-6">
+						<ul class="list-unstyled">
+							<div class="">
+								<div class="">
+								<li class="row"><div class="col-md-4">Name:</div> <div class="col-md-6"> <span class="sep">Abhishek Kumar Singh</span></div></li>
+								<li class="row"><div class="col-md-4">Roll No:</div> <div class="col-md-6"><span class="sep">1509010007</span></div> </li>
+								<li class="row"><div class="col-md-4">Course:</div> <div class="col-md-6"><span class="sep">Btech</span></div></li>
+								<li class="row"><div class="col-md-4">Branch:</div> <div class="col-md-6"><span class="sep">Computer</span></div></li>
+								<li class="row"><div class="col-md-4">Mother's Name:</div> <div class="col-md-6"><span class="sep">Babita Singh</span></div></li>
+								<li class="row"><div class="col-md-4">Father's Name:</div> <div class="col-md-6"><span class="sep">Yatendra Pal Singh</span></div></li>
+								<li class="row"><div class="col-md-4">Address:</div> <div class="col-md-6"><span class="sep">5/114 c-cross street Manhattan</span></div></li>
+								<li class="row"><div class="col-md-4">Result:</div> <div class="col-md-6"><span class="sep">Branch</span></div></li>
+								<li class="bor"><div class="progress ">
+								<div class="progress-bar progress-bar-success progress-bar-animated" style="width:80%;"> 80% </div></div>Performance</li>
+								<li class="row"><div class="col-md-4">Fees:</div> <div class="col-md-6"><span class="sep">Clear</span></div></li>
+							</div>
+							</div>
+						</ul>
+					</div>
+				
+			</div>
+</div>		
+
+				
+			
+
 		</div>
 
 		<div class="page" id="page-Musers">
 			<div class="MySidenav">
 				<a href="#" id="admin-user">Administrator</a>		
-				<a href="#" id="fac-user">Fculity</a>		
+				<a href="#" id="fac-user">Faculty</a>		
 				<a href="#" id="stud-user">Student</a>		
 				<a href="#" id="parent-user">Parent</a>
 
@@ -90,22 +134,22 @@
 
 					<button class="accordion">Administrator:</button>
 					<div class="panel">
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					  <p>Adminstrator manages all the stuff related to college.All the permissions are under control of administrator.In case you need to access certain permission to access this site please contact administrator</p>
 					</div>
 
-					<button class="accordion">Fculity:</button>
+					<button class="accordion">Faculty:</button>
 					<div class="panel">
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					  <p>If you are Facutly of the college then please login with your username to get updated with you status in college</p>
 					</div>
 
 					<button class="accordion">Student:</button>
 					<div class="panel">
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					  <p>If you are student of the college then please login with your username to get updated with you status in college</p>
 					</div>
 
 					<button class="accordion">Parent:</button>
 					<div class="panel">
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					  <p>If you are parent of any student in the college then please login with your username to get updated with the performance status of your ward in college</p>
 					</div>
 
 				</div>
