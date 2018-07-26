@@ -30,7 +30,8 @@ body {
   	margin: 70PX auto 100px;
   	padding: 45px;
   	text-align: center;
-  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  	-webkit-box-shadow: 5px 5px 37px 0px #000000; 
+    box-shadow: 5px 5px 37px 0px #000000;
 }
 
 .login-box h1 {
@@ -75,15 +76,17 @@ body {
 	font-family: "Roboto", sans-serif;
 	outline: 0;
 	margin-top: 40px;
-  	background: #00A8E0;
+  background: #00A8E0;
 	width: 100%;
-  	border: 0;
-  	padding: 15px;
-  	color: #FFFFFF;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
 	font-size: 18px;
-  	-webkit-transition: all 0.3 ease;
-  	transition: all 0.3 ease;
-  	cursor: pointer
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer
+  -webkit-box-shadow: 5px 5px 37px 0px #000000; 
+  box-shadow: 5px 5px 20px 0px #000000;
 }
 
 .btn:hover,.btn:active,.btn:focus {
@@ -117,6 +120,7 @@ body {
     height:600px;
     background:#FFF;
     margin:60px auto;
+    -webkit-box-shadow
 }
 
 
@@ -257,6 +261,8 @@ input[type="submit"]:active {
   line-height: 40px;
   text-align: center;
   padding-top: 8px;
+  -webkit-box-shadow: 7px 11px 11px 0px rgba(204,159,255,0.91); 
+  box-shadow: 7px 11px 11px 0px rgba(204,159,255,0.91);
 }
 
 .right {
