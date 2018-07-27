@@ -13,11 +13,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
-
-
-/*
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByClassName("extra-accordian");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -31,4 +27,3 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
-*/

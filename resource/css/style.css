@@ -445,3 +445,129 @@ body, html {
 .alumni-button:hover {
   background-color: #555;
 }
+
+
+/**********************************************
+                  EXTRA BOX
+***********************************************/
+.adjust-extra {
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-bottom: 50px;
+  float: left;
+} 
+.extra-box {
+  width: 75%;
+  height: 200px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  float: left;
+}
+
+.extra-box:hover {
+  background-color: #F3F2F2;
+}
+
+.inner-box {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 60px;
+  float: right;
+  width: 33.5%;
+  height: 96%;
+  background: red;
+}
+
+.inner-box img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
+ * Effect of box of Extra slide
+*/
+.effect-extra {
+  position: relative;
+}
+
+.effect-extra:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.extra-h1-head {
+  width: 50%;
+  color: #FF667D;
+  text-shadow: 1px 1px 0 #FFFFFF, 2px 2px 0 #FF667D;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.extra-h1-head:hover {
+  color: #FF2445;
+}
+
+/*   Extra Slide Accordian */
+.extra-accordian {
+  position: static;
+  background-color: #FAFAFA;
+  font-weight: 50;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 2px;
+  padding: 10px;
+  width: 65.5%;
+  border: none;
+  text-align: left;
+  text-transform: full-width;
+  outline: none;
+  font: italic bold 12px/30px Georgia, serif;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.active, .extra-accordian:hover {
+    background-color: #FFFFFF;
+    color: blue;
+}
+
+.extra-accordian:after {
+    content: '\002B';
+    color: grey;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.extra-panel {
+    padding: 0 18px;
+    width: 65.5%;
+    margin-left: 2px;
+    background-color: white;
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.2s ease-out;
+}
+
+.extra-panel p {
+  position: static;
+  height: 116px;
+  text-align: justify;
+  color: black;
+}
